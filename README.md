@@ -14,8 +14,17 @@ Please check [our website] for more details, or [our wiki] for further informati
 Sfizz can be used most easily within an [LV2] host such as [Carla] or [Ardour].
 It can also be integrated as a library within your own program; check out our [API] bindings for C and C++.
 Our [releases] are an immediate way to get a working library and plugins for Windows and Mac.
-Linux builds are available over at [OBS].
 On any operating system, you might prefer to [build from source]!
+
+### Fedora 42
+Builds by [adam820](https://github.com/adam820) in Fedora COPR for Fedora 42 are available:
+
+To add to your system, enable the COPR repository:
+
+`sudo dnf copr enable adam820/sfizz-ui`
+
+For the LV2 plugin: `sudo dnf install lv2-sfizz-ui`
+For the VST3 plugin: `sudo dnf install sfizz-ui-vst3`
 
 ## Contributing to sfizz
 
