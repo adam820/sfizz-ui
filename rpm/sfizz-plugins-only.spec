@@ -36,7 +36,7 @@ Sfizz is a musical sampler, available as LV2 plugin for musicians
 Sfizz is a musical sampler, available as VST3 plugin for musicians
 
 %prep
-%setup -q -n sfizz-ui-%{version}
+%setup -q
 
 %build
 %cmake  -DENABLE_LTO=ON \
